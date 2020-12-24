@@ -1,0 +1,17 @@
+.container {
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.dimension {
+    width: 250px;
+    height: auto;
+    /* padding: 16px;
+    border-radius: 7px; */
+}
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    justify-content: center;
+    cursor: pointer;
+}

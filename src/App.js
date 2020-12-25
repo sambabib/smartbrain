@@ -23,7 +23,7 @@ const particleOptions = {
 };
 
 const app = new Clarifai.App({
-  apiKey: 'ed861d7dbc274572b357bd6ced819ca6'
+  apiKey: process.env.REACT_APP_API_KEY
  });
 
  const initialState =  {
